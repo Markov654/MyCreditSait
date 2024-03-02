@@ -1,0 +1,19 @@
+{
+  "name": "c",
+  "version": "1.0.0",
+  "description": "my furst sait of zero to expert",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Markov654/MyCreditSait.git"
+  },
+  "author": "Iliya Markov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Markov654/MyCreditSait/issues"
+  },
+  "homepage": "https://github.com/Markov654/MyCreditSait#readme"
+}
