@@ -16,7 +16,10 @@ header{
     align-items: center;
 }
 
-.menu > li{
+.menu  a{
+    padding: 15px;
+    font-size: 35px;
+    color: white;
     text-decoration: none;
 }
 
