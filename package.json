@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Markov654/MyCreditSait/issues"
   },
-  "homepage": "https://github.com/Markov654/MyCreditSait#readme"
+  "homepage": "https://github.com/Markov654/MyCreditSait#readme",
+  "dependencies": {
+    "sass": "^1.71.1"
+  }
 }
