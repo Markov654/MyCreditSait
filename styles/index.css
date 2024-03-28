@@ -9,7 +9,8 @@ header{
     justify-content: space-between;
     width: 100%;
     height: 700px;
-    background-image: url(./picrure/lukasz-niescioruk-_Tm2tvKPBdU-unsplash\ \(1\).jpg) ;
+    background-image: url(../images/651045f9ee141373e60776f2o.jpg) ;
+    background-size: cover;
 }
 
 ul {
