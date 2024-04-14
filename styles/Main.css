@@ -1,6 +1,8 @@
 body{
    background-image:linear-gradient( white, darkgreen);
+   margin: 0;
 }
+
 
 header {
     background-color: brown;
@@ -11,13 +13,22 @@ header {
     height: 500px;
     background-image: url(../images/autumn-3731094_1280.jpg) ;
     background-size: cover;
+    opacity: 0.8;
     
     }
+      #conteiner1{
+        display: flex;
+        margin: 25px;
+    }
 
-   #img{
-    padding: 50px;
-    border-radius: 50%;
+    #p{
+        color: aliceblue;
+        margin-top: 20px;
+        font-size: 32px;
+        text-shadow: 3px 5px  green;
    }
+
+  
 
 ul  b{
     display: flex;
@@ -26,6 +37,7 @@ ul  b{
     list-style-type: none;
     align-items: flex-start;
     padding: 25px;
+    font-family: 'Gill Sans',  sans-serif;
     
     
 
