@@ -1,5 +1,5 @@
 body{
-    background-image:linear-gradient(white, darkgreen);
+    background-image:linear-gradient(darkgrey, darkgreen);
     margin: 0;
  }
  
@@ -48,6 +48,16 @@ body{
         text-decoration: none;
     }
 
+    h1{
+        text-align: center;
+        color: black;
+        text-shadow: 2px 2px white;
+    }
+
+    h3{
+        text-shadow: 2px 2px darkgrey;
+    }
+
     
 .conteiner{
    display: flex;
@@ -57,58 +67,132 @@ body{
 }
 
 .section1{
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: aliceblue;
     width: 50%;
-    margin: 3em;    
+    padding: 2em;    
 }
 
 .child{
     position: absolute;
-    top: 70em;
+    top: 60em;
 
 }
 
 .history{
     display:flex;
     flex-direction: row;
-    
-    
     width: 100%;
 }
 
  .left{
     width: 50%;
-    padding: 1em;
+    padding: 2em;
+    color: white;
+    font-size: 1.2em;
 }
 
  .right{
     width: 50%;
-    padding: 1em;
+    padding: 2em;
+    color: white;
+    font-size: 1.2em;
 }
 
-.bay{
+.verticaly{
     position: relative;
     left: -20px;
-    
     width: 0;
     height: 50px;
    
 }
 
-.mql{
+.point{
     position: absolute;
-    border: 7px solid yellow;
+    border: 7px solid darkgrey;
     border-radius: 50%;
-    top: 20px;
-    
-   
+    top: 70px;
     
 }
 
-.mql1{
-    position: absolute;
-    border: 2px solid yellow;
-    top: 50px;
+.advantage{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 75px;
+    
+  
+    
 }
+
+.item1{
+    width: 20%;
+    padding: 50px;
+    
+}
+
+.item2{
+    width: 20%;
+    padding: 50px;
+   
+}
+
+.item3{
+    width: 20%;
+    padding: 50px;
+}
+
+.item4{
+    width: 20%;
+    padding: 50px;
+}
+
+h4::before{
+    content: '😗';
+    
+}
+
+.btn{
+    text-align: center;
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+.imageConteiner{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.colums{
+    display:flex;
+    justify-content: space-between;
+   padding-left: 200px;
+   padding-right: 200px;
+}
+
+.SocialMedia{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.SocialMedia img{
+    margin: 10px;
+}
+
 
