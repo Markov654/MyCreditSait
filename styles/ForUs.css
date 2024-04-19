@@ -58,6 +58,16 @@ body{
         text-shadow: 2px 2px darkgrey;
     }
 
+
+    h4{
+        text-shadow: 1px 1px white;
+        font-size: 22px;
+    }
+
+    p{
+        color: aliceblue;
+        font-size: 18px;
+    }
     
 .conteiner{
    display: flex;
@@ -131,6 +141,7 @@ body{
     width: 20%;
     padding: 50px;
     
+    
 }
 
 .item2{
@@ -150,13 +161,26 @@ body{
 }
 
 h4::before{
-    content: '🕚';
+    content: '🏴󠁢󠁳󠁨󠁴󠁿';
     font-size: 30px;
     
 }
 
 .btn{
+    position: relative;
     text-align: center;
+    background-color: darkgrey;
+    margin-left: 470px;
+    width: 35em;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2.5em;
+    
 }
 
 
