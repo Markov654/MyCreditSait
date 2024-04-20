@@ -42,10 +42,17 @@ body{
     }
     
     ul li a{
-        padding: 0.5em;
-        font-size: 1.5em;
+        padding: 0.8em;
+        font-size: 1.3em;
         color:white;
         text-decoration: none;
+    }
+
+    ul li a:hover{
+        background-color: rgb(77, 225, 77);
+        border-radius: 10px;
+        font-size: 1.5em;
+        
     }
 
     h1{
@@ -193,13 +200,28 @@ footer{
     
 }
 
-ul{
+ol{
     list-style-type: none;
+
     
 }
 
-ul li a{
-    font-size: 16px;
+ol li{
+    margin-top: 20px;
+    
+}
+
+ol li a{
+    font-size: 1em;
+    text-decoration: none;
+    color: aliceblue;
+ 
+}
+
+ol li a:hover{
+    background-color: rgb(100, 235, 100);
+    border-radius: 10px;
+    font-size: 1.2em;
 }
 
 .imageConteiner{
@@ -210,8 +232,8 @@ ul li a{
 .colums{
     display:flex;
     justify-content: space-between;
-   padding-left: 200px;
-   padding-right: 200px;
+    margin-left: 10%;
+    width: 80%;
 }
 
 .SocialMedia{
