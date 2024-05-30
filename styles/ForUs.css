@@ -1,0 +1,250 @@
+body{
+    background-image:linear-gradient(darkgrey, darkgreen);
+    margin: 0;
+ }
+ 
+ 
+ header {
+     background-color: brown;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width: 100%;
+     height: 500px;
+     background-image: url(../images/job-5382501_1280.jpg) ;
+     background-size: cover;
+     opacity: 0.8;
+     
+     }
+       #conteiner1{
+         display: flex;
+         margin: 1em;
+     }
+ 
+     #p{
+         color: aliceblue;
+         margin-top: 1.5em;
+         font-size: 1.5em;
+         text-shadow: 3px 5px  green;
+    }
+
+    ul  b{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        list-style-type: none;
+        align-items: flex-start;
+        padding: 2.8em;
+        font-family: 'Gill Sans',  sans-serif;
+        
+        
+    
+    }
+    
+    ul li a{
+        padding: 0.8em;
+        font-size: 1.3em;
+        color:white;
+        text-decoration: none;
+    }
+
+    ul li a:hover{
+        background-color: rgb(77, 225, 77);
+        border-radius: 10px;
+        font-size: 1.5em;
+        
+    }
+
+    h1{
+        text-align: center;
+        color: black;
+        text-shadow: 2px 2px white;
+    }
+
+    h3{
+        text-shadow: 2px 2px darkgrey;
+    }
+
+
+    h4{
+        text-shadow: 1px 1px white;
+        font-size: 22px;
+    }
+
+    p{
+        color: aliceblue;
+        font-size: 18px;
+    }
+    
+.conteiner{
+   display: flex;
+   flex-direction: row;
+   position: relative;
+  
+}
+
+.section1{
+    font-size: 1.3em;
+    color: aliceblue;
+    width: 50%;
+    padding: 2em;    
+}
+
+.child{
+    position: absolute;
+    top: 50em;
+
+}
+
+.history{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+ .left{
+    width: 50%;
+    padding: 2em;
+    color: white;
+    font-size: 1.2em;
+}
+
+ .right{
+    width: 50%;
+    padding: 2em;
+    color: white;
+    font-size: 1.2em;
+}
+
+.verticaly{
+    position: relative;
+    left: -20px;
+    width: 0;
+    height: 50px;
+   
+}
+
+.point{
+    position: absolute;
+    border: 7px solid darkgrey;
+    border-radius: 50%;
+    top: 70px;
+    
+}
+
+.advantage{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    align-items: baseline;
+    justify-content: center;
+    margin-left: 75px;
+    
+  
+    
+}
+
+.item1{
+    width: 20%;
+    padding: 50px;
+    
+    
+}
+
+.item2{
+    width: 20%;
+    padding: 50px;
+   
+}
+
+.item3{
+    width: 20%;
+    padding: 50px;
+}
+
+.item4{
+    width: 20%;
+    padding: 50px;
+}
+
+h4::before{
+    content: '🏴󠁢󠁳󠁨󠁴󠁿';
+    font-size: 30px;
+    
+}
+
+.btn{
+    position: relative;
+    text-align: center;
+    background-color: darkgrey;
+    margin-left: 470px;
+    width: 35em;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2.5em;
+    
+}
+
+
+
+
+footer{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    
+}
+
+ol{
+    list-style-type: none;
+
+    
+}
+
+ol li{
+    margin-top: 20px;
+    
+}
+
+ol li a{
+    font-size: 1em;
+    text-decoration: none;
+    color: aliceblue;
+ 
+}
+
+ol li a:hover{
+    background-color: rgb(100, 235, 100);
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+.imageConteiner{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.colums{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.SocialMedia{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    padding: 10px;
+}
+
+.SocialMedia img{
+    margin: 10px;
+}
+
+

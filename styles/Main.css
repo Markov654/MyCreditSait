@@ -1,0 +1,433 @@
+body{
+   background-image:linear-gradient( white, darkgreen);
+   margin: 0;
+}
+
+
+header {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/autumn-3731094_1280.jpg) ;
+    background-size: cover;
+    opacity: 0.8;
+    
+    }
+      #conteiner1{
+        display: flex;
+        margin: 25px;
+    }
+
+    #p{
+        color: aliceblue;
+        margin-top: 20px;
+        font-size: 32px;
+        text-shadow: 3px 5px  green;
+   }
+
+  
+
+ul  b{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style-type: none;
+    align-items: flex-start;
+    padding: 25px;
+    font-family: 'Gill Sans',  sans-serif;
+    
+    
+
+}
+
+ul li a{
+    padding: 15px;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+  
+ul li a:hover{
+    background-color: rgb(77, 225, 77);
+    font-size: 24px;
+    border-radius: 20px;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 4em;
+    text-shadow: 1px 1px aliceblue;
+    
+}
+
+.p{
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 1px 1px aliceblue;
+}
+
+
+h1{
+    text-align: center;
+    text-shadow: 3px 3px aliceblue;
+    font-size: 3em;
+    color: darkgreen;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 60%;
+    margin: 3em auto;
+    padding: 0 2em;
+    
+    overflow: hidden;
+    /* border:5px solid  blue; */
+}
+
+.slider-wrapper {
+    overflow: hidden;
+    width: 100%;
+    /* border:5px solid red; */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease;
+    /* border:5px solid green; */
+}
+
+.product-card {
+    flex: 0 0 calc((100%/3) - 20px); /* fit 3 cards into container*/
+    margin: 0 10px;
+   
+    text-align: center;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px #0002;
+    box-sizing: border-box;
+}
+
+.slider-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}
+
+
+
+.card-color{
+    background-color: darkgreen;
+    height: 550px;
+    
+    box-shadow: 3px 3px lightgreen;
+   
+ 
+}
+
+.card-color h2{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 3px black;
+    font-size: 1.5em;
+}
+
+.card-color p{
+    margin-left: 5%;
+    color:aliceblue;
+    text-shadow: 2px 2px black;
+}
+
+.card-color .img{
+    float: right;
+    padding: 20px;
+}
+
+.knowMore a{
+    color: aliceblue;
+    padding: 12px;
+    text-shadow: 1px 1px black;
+    font-size: 1.5em;
+    
+}
+
+.slider-btn{
+    background-color: darkgreen;
+}
+
+.slider-btn button{
+margin-bottom: 40px;
+background-color: green;
+border: 1px 1px darkgrey;
+box-shadow: 2px 2px lightgreen;
+font-size: 1.5em;
+color: white;
+text-shadow: 3px 3px black;
+}
+
+.slider-btn, button, a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+
+
+.conteiner-fast{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  
+}
+
+.conteiner-fast img{
+    border-radius: 50%;
+    margin-left: 35px;
+}
+
+img:hover{
+    box-shadow: 2px 2px aliceblue;
+}
+
+.furst-fast{
+    width: 300px;
+}
+
+ h3:hover{
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.btn{
+    position: relative;
+    text-align: center;
+    background-color: darkgrey;
+    margin-left: 415px;
+    width: 35em;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 7vh;
+  }
+  
+  .btn a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 2.5em;
+    
+  }
+
+ 
+
+  .colege-sell{
+    display: flex;
+   justify-content: space-around;
+    margin-top: 5vh;
+   
+}
+
+
+.card-color{
+    background-color: darkgreen;
+    width: 300px;
+    box-shadow: 3px 3px lightgreen;
+   
+ 
+}
+
+.card-color h2{
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 3px 3px black;
+}
+
+.card-color p{
+    margin-left: 5%;
+    color:aliceblue;
+    text-shadow: 2px 2px black;
+}
+
+.card-color .img{
+    float: right;
+    padding: 20px;
+}
+
+.knowMore a{
+    color: aliceblue;
+    padding: 12px;
+    text-shadow: 1px 1px black;
+    font-size: 1.5em;
+}
+
+.stars{
+    font-size: 45px;
+    color: darkgoldenrod;
+    
+}
+
+h3{
+    text-shadow: 1px 1px aliceblue;
+    font-size: 24px;
+}
+
+span{
+    color: black;
+    font-size: 25px;
+    text-shadow: 1px 1px aliceblue;
+    margin-left: 10px;
+}
+
+
+.opinion{
+    border: 3px solid darkgray;
+    height: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 7vh;
+    box-shadow: 5px 7px  7px 5px lightgreen;
+   
+    
+}
+
+.opinion1{
+    border: 3px solid darkgray;
+    height: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 5px 5px  5px 5px lightgreen;
+  
+    
+}
+
+.opinion2{
+    border: 3px solid darkgray;
+    height: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+    box-shadow: 5px 5px  5px 5px lightgreen;
+    
+}
+
+
+
+.customer-opinion img{
+    float: left;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    
+  }
+  
+  ol{
+    list-style-type: none;
+  
+    
+  }
+  
+  ol li{
+    margin-top: 20px;
+    
+  }
+  
+  ol li a{
+    font-size: 1em;
+    text-decoration: none;
+    color: aliceblue;
+  
+  }
+  
+  ol li a:hover{
+    background-color: rgb(100, 235, 100);
+    border-radius: 10px;
+    font-size: 1.2em;
+  }
+  
+  .imageConteiner{
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .colums{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  .SocialMedia{
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    padding: 10px;
+  }
+  
+  .SocialMedia img{
+    margin: 10px;
+  }
+  
+
+  .cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.cookie-banner p {
+    margin: 0;
+    flex: 1;
+}
+
+.cookie-banner button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cookie-banner a {
+    color: #4CAF50;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
