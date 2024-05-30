@@ -8,9 +8,9 @@ function myFunction(){
      
     let interest1 = (amount * (interest * 1.2 /12)) / months;
     
-    let total = ((amount / months) + interest1)
+    let total = ((amount / months) + interest1)  || 0;
     let total1 = amount + interest1 * months
-
+  
     console.log(`Месечна вноска в размер ${total}`)
     console.log(total1)
 

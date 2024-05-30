@@ -43,10 +43,16 @@ body{
     
     ul li a{
         padding: 15px;
-        font-size: 25px;
+        font-size: 22px;
         color: white;
         text-decoration: none;
     }
+
+    ul li a:hover{
+        font-size: 24px;
+        background-color: rgb(77, 225, 77);
+        border-radius: 20px;
+      }
 
     h1{
         text-align: center;
